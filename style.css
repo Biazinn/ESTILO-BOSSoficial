@@ -1,3 +1,9 @@
+body {
+    height: 700px;
+  margin: 0;
+  padding: 0;
+}
+
 a {
     color: whitesmoke;
     transition: 0.3s;
@@ -31,3 +37,22 @@ header{
     
 }
 
+img {
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .bottom {
+    position: fixed;
+    bottom: 0;
+    background: #b26005;
+    width: 100%;
+    margin: 0;
+  }
+  
+  #redes {
+    padding-left: 10px;
+    padding-bottom: 60px;
+    font-size: 30px;
+  }

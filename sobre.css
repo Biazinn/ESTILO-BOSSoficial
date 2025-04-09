@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+  min-height: 0;
+
+}
+
+body {
+  height: 700px;
+  margin: 0;
+  padding: 0;
+}
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -19,7 +31,7 @@ header{
     z-index: -1;
 }
 
-p {
+#sobre {
 margin-top: 70px;
 font-size: 50px;
 }
@@ -31,8 +43,27 @@ a {
 
 #caminho {
   margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #efdfcd;
 }
 
 img {
   width: 100px;
+  position: fixed;
+  bottom: 0;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  background: #b26005;
+  width: 100%;
+  margin: 0;
+}
+
+#redes {
+  padding-left: 10px;
+  padding-bottom: 60px;
+  font-size: 30px;
 }

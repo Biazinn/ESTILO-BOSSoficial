@@ -1,0 +1,33 @@
+a {
+    color: whitesmoke;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+color: #c66b06;
+}
+
+.paginas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    scale: 1.5;
+    background-color: black;
+}
+
+h1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #c66b06;
+    width: 100%;
+    
+}
+
